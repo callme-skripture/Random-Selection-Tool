@@ -54,3 +54,130 @@ body{
     border: 2px solid black;
     font-size: 1em;
 }
+
+
+
+
+
+@media (min-width: 320px){
+
+.label{
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.clientName{
+    padding-right: 28px;
+}
+
+body{
+    background-color: rgb(88, 88, 247);
+    border: 5px solid black;
+    height: 700px;
+}
+
+}
+
+
+@media (min-width: 375px){
+
+.label{
+    font-weight: 700;
+    padding-left: 40px;
+}
+
+.clientName{
+    padding-right: 28px;
+}
+
+body{
+    background-color: rgb(88, 88, 247);
+    border: 5px solid black;
+    height: 630px;
+}
+
+}
+
+
+@media (min-width: 425px){
+
+.label{
+    font-weight: 700;
+    padding-left: 60px;
+}
+
+body{
+    background-color: rgb(88, 88, 247);
+    border: 5px solid black;
+    height: 630px;
+}
+
+}
+
+
+@media (min-width: 768px){
+
+.label{
+    font-weight: 700;
+    padding-left: 230px;
+}
+
+.clientName{
+    padding-right: 28px;
+}
+
+body{
+    background-color: rgb(88, 88, 247);
+    border: 5px solid black;
+    height: 530px;
+}
+
+}
+
+
+@media (min-width: 1024px){
+
+.label{
+    font-weight: 700;
+    padding-left: 350px;
+}
+
+body{
+    background-color: rgb(88, 88, 247);
+    border: 5px solid black;
+    height: 530px;
+}
+
+}
+
+
+@media (min-width: 1440px){
+
+.label{
+    font-weight: 700;
+    padding-left: 550px;
+}
+
+body{
+    background-color: rgb(88, 88, 247);
+    border: 5px solid black;
+    height: 530px;
+}
+
+}
+
+
+@media (min-width: 2560px){
+
+.label{
+    font-weight: 700;
+    padding-left: 1120px;
+}
+
+body{
+    background-color: rgb(88, 88, 247);
+    border: 5px solid black;
+    height: 530px;
+}
+
+}
