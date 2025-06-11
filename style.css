@@ -60,111 +60,151 @@ body{
 
 
 @media (min-width: 320px){
+    
 
-.label{
-    font-weight: 700;
-    padding-left: 10px;
+    .label{
+        font-weight: 700;
+        margin-left: 10px;
+    }
+
+    .clientName{
+        padding-right: 28px;
+    }
+
+    body{
+        background-color: rgb(88, 88, 247);
+        border: 5px solid black;
+        height: 700px;
+    }
+
+    #sigNaTure{
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    #p1{
+        margin-top: -10px;
+    }
+
 }
 
-.clientName{
-    padding-right: 28px;
-}
 
-body{
-    background-color: rgb(88, 88, 247);
-    border: 5px solid black;
-    height: 700px;
-}
 
-}
 
 
 @media (min-width: 375px){
+    
+    .label{
+        font-weight: 700;
+        padding-left: 40px;
+    }
 
-.label{
-    font-weight: 700;
-    padding-left: 40px;
+    .clientName{
+        padding-right: 28px;
+    }
+
+    body{
+        background-color: rgb(88, 88, 247);
+        border: 5px solid black;
+        height: 630px;
+    }
+
+    #p1{
+        margin-top: -15px;
+    }
+
 }
 
-.clientName{
-    padding-right: 28px;
-}
 
-body{
-    background-color: rgb(88, 88, 247);
-    border: 5px solid black;
-    height: 630px;
-}
 
-}
 
 
 @media (min-width: 425px){
 
-.label{
-    font-weight: 700;
-    padding-left: 60px;
+    .label{
+        font-weight: 700;
+        padding-left: 60px;
+    }
+
+    body{
+        background-color: rgb(88, 88, 247);
+        border: 5px solid black;
+        height: 630px;
+    }
+
+    #p1{
+        margin-top: 3px;
+    }
+
 }
 
-body{
-    background-color: rgb(88, 88, 247);
-    border: 5px solid black;
-    height: 630px;
-}
 
-}
+
 
 
 @media (min-width: 768px){
 
-.label{
-    font-weight: 700;
-    padding-left: 230px;
+    .label{
+        font-weight: 700;
+        padding-left: 230px;
+    }
+
+    .clientName{
+        padding-right: 28px;
+    }
+
+    body{
+        background-color: rgb(88, 88, 247);
+        border: 5px solid black;
+        height: 530px;
+    }
+
+    #sigNaTure{
+        margin-top: 10px;
+    }
+
 }
 
-.clientName{
-    padding-right: 28px;
-}
 
-body{
-    background-color: rgb(88, 88, 247);
-    border: 5px solid black;
-    height: 530px;
-}
-
-}
 
 
 @media (min-width: 1024px){
 
-.label{
-    font-weight: 700;
-    padding-left: 350px;
+    .label{
+        font-weight: 700;
+        padding-left: 350px;
+    }
+
+    body{
+        background-color: rgb(88, 88, 247);
+        border: 5px solid black;
+        height: 550px;
+    }
+
+    #sigNaTure{
+        margin-top: 28px;
+    }
 }
 
-body{
-    background-color: rgb(88, 88, 247);
-    border: 5px solid black;
-    height: 530px;
-}
 
-}
 
 
 @media (min-width: 1440px){
 
-.label{
-    font-weight: 700;
-    padding-left: 550px;
-}
+    .label{
+        font-weight: 700;
+        padding-left: 550px;
+    }
 
-body{
+    body{
     background-color: rgb(88, 88, 247);
     border: 5px solid black;
-    height: 530px;
+    height: 550px;
+    }
 }
 
-}
+
+
 
 
 @media (min-width: 2560px){
@@ -177,7 +217,7 @@ body{
 body{
     background-color: rgb(88, 88, 247);
     border: 5px solid black;
-    height: 530px;
+    height: 550px;
 }
 
 }
