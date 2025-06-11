@@ -1,12 +1,16 @@
+@media (min-width: 320px){
+    
 *{
     outline: none;
     padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 body{
     background-color: rgb(88, 88, 247);
     border: 5px solid black;
-    height: 605px;
+    height: 700px;
 }
 
 #hder1{
@@ -23,16 +27,19 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
     text-align: center;
+    margin-top: -10px;
 }
 
 .label{
     font-weight: 700;
-    padding-left: 460px;
+    padding-left: 10px;
 }
 
 .clientName{
-    padding-right: 125px;
+    padding-right: 28px;
 }
+
+
 #nTaker{
     text-align: center;
     font-weight: bold;
@@ -53,38 +60,14 @@ body{
     font-weight: bold;
     border: 2px solid black;
     font-size: 1em;
+    cursor: pointer;
 }
 
-
-
-
-
-@media (min-width: 320px){
+#sigNaTure{
+    text-align: center;
+    margin-top: 25px;
+}
     
-
-    .label{
-        font-weight: 700;
-        margin-left: 10px;
-    }
-
-    .clientName{
-        padding-right: 28px;
-    }
-
-    body{
-        background-color: rgb(88, 88, 247);
-        border: 5px solid black;
-        height: 700px;
-    }
-
-    #sigNaTure{
-        text-align: center;
-        margin-top: 25px;
-    }
-
-    #p1{
-        margin-top: -10px;
-    }
 
 }
 
@@ -95,7 +78,6 @@ body{
 @media (min-width: 375px){
     
     .label{
-        font-weight: 700;
         padding-left: 40px;
     }
 
@@ -104,8 +86,6 @@ body{
     }
 
     body{
-        background-color: rgb(88, 88, 247);
-        border: 5px solid black;
         height: 630px;
     }
 
@@ -122,13 +102,10 @@ body{
 @media (min-width: 425px){
 
     .label{
-        font-weight: 700;
         padding-left: 60px;
     }
 
     body{
-        background-color: rgb(88, 88, 247);
-        border: 5px solid black;
         height: 630px;
     }
 
@@ -145,7 +122,6 @@ body{
 @media (min-width: 768px){
 
     .label{
-        font-weight: 700;
         padding-left: 230px;
     }
 
@@ -154,8 +130,6 @@ body{
     }
 
     body{
-        background-color: rgb(88, 88, 247);
-        border: 5px solid black;
         height: 530px;
     }
 
@@ -171,13 +145,10 @@ body{
 @media (min-width: 1024px){
 
     .label{
-        font-weight: 700;
         padding-left: 350px;
     }
 
     body{
-        background-color: rgb(88, 88, 247);
-        border: 5px solid black;
         height: 550px;
     }
 
@@ -192,13 +163,10 @@ body{
 @media (min-width: 1440px){
 
     .label{
-        font-weight: 700;
         padding-left: 550px;
     }
 
     body{
-    background-color: rgb(88, 88, 247);
-    border: 5px solid black;
     height: 550px;
     }
 }
@@ -210,14 +178,12 @@ body{
 @media (min-width: 2560px){
 
 .label{
-    font-weight: 700;
     padding-left: 1120px;
 }
 
 body{
-    background-color: rgb(88, 88, 247);
-    border: 5px solid black;
     height: 550px;
 }
 
 }
+
